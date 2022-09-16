@@ -1,22 +1,14 @@
 
 package com.example.android.recyclerview;
 
-import static java.security.AccessController.getContext;
-
 import android.content.Context;
-import android.os.Build;
 import android.support.annotation.NonNull;
-import android.support.annotation.RequiresApi;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.TextView;
-
-import com.bumptech.glide.Glide;
-
-import java.security.AccessControlContext;
+import android.widget.TextView;;
 import java.util.ArrayList;
 
 public class RecipeListAdapter extends RecyclerView.Adapter<RecipeListAdapter.RecipeViewHolder>{
@@ -25,10 +17,11 @@ public class RecipeListAdapter extends RecyclerView.Adapter<RecipeListAdapter.Re
     private View.OnClickListener mOnItemClickListener;
 
     public RecipeListAdapter(Context context, ArrayList<RecipeData> recipeList){
-        mInflater = LayoutInflater.from(context);
+        this.mInflater = LayoutInflater.from(context);
         this.recipeList = recipeList;
     }
 
+    //inflate the layout
     @NonNull
     @Override
     public RecipeListAdapter.RecipeViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
@@ -37,14 +30,12 @@ public class RecipeListAdapter extends RecyclerView.Adapter<RecipeListAdapter.Re
     }
 
 
+    //on bind process -assigning values to the recyclerview based on position
     @Override
     public void onBindViewHolder(@NonNull RecipeListAdapter.RecipeViewHolder recipeViewHolder, int position) {
         recipeViewHolder.name.setText((recipeList.get(position)).getName());
         recipeViewHolder.description.setText((recipeList.get(position)).getDescription());
-//        Glide.with(recipeViewHolder.itemView)
-//                .load(recipeList.get(position).getImage())
-//                 .override(100, 150)
-//                .into(recipeViewHolder.image);
+        recipeViewHolder.image.setImageResource(recipeList.get(position).getImage());
     }
 
     @Override
@@ -52,21 +43,26 @@ public class RecipeListAdapter extends RecyclerView.Adapter<RecipeListAdapter.Re
         return recipeList.size();
     }
 
+
     public void setOnItemClickListener(View.OnClickListener onItemClickListener) {
         mOnItemClickListener = onItemClickListener;
     }
 
-    class RecipeViewHolder extends RecyclerView.ViewHolder {
+    //inner class to grabbing views from item_list layout and assign them values
+    public  class RecipeViewHolder extends RecyclerView.ViewHolder {
         TextView name, description;
         ImageView image;
 
 
         public RecipeViewHolder(View itemView){
             super(itemView);
+
             name = itemView.findViewById(R.id.recipe_name);
             description = itemView.findViewById(R.id.recipe_description);
             image = itemView.findViewById(R.id.recipe_image);
-            itemView.setTag(this);
+
+            itemView.setTag(this); //use the same onClick for every button
+
             itemView.setOnClickListener(mOnItemClickListener);
         }
     }

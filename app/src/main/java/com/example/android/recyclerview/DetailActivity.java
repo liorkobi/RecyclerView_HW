@@ -14,12 +14,14 @@ public class DetailActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
+
         ImageView imageView = findViewById(R.id.recipe_image);
         TextView textView = findViewById(R.id.recipe_details);
+
         //Gets the data that is sent to it from the Main Activity and displays it
         Bundle extras = getIntent().getExtras();
         if (extras != null){
             textView.setText(getIntent().getStringExtra("details"));
-            Glide.with(this).load(getIntent().getIntExtra("image", 0)).into(imageView);
+            imageView.setImageResource(getIntent().getIntExtra("image",0));
         }
     }}

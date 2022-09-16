@@ -3,4 +3,141 @@
     <string name="app_name">RecyclerView</string>
     <string name="action_settings">Settings</string>
     <string name="recipe_image_desc">recipe image</string>
+
+    <string name="pancakeDes">"Ingredients
+100g plain flour
+2 large eggs
+300ml milk
+1 tbsp sunflower or vegetable oil, plus a little extra for frying
+lemon wedges to serve (optional)
+caster sugar to serve (optional)\n STEP 1\n" +
+                "Put 100g plain flour, 2 large eggs, 300ml milk, 1 tbsp sunflower or vegetable oil and a pinch of salt into a bowl or large jug, then whisk to a smooth batter.\n" +
+                "\n" +
+                "STEP 2\n" +
+                "Set aside for 30 mins to rest if you have time, or start cooking straight away.\n" +
+                "\n" +
+                "STEP 3\n" +
+                "Set a medium frying pan or crêpe pan over a medium heat and carefully wipe it with some oiled kitchen paper.\n" +
+                "\n" +
+                "STEP 4\n" +
+                "When hot, cook your pancakes for 1 min on each side until golden, keeping them warm in a low oven as you go.\n" +
+                "\n" +
+                "STEP 5\n" +
+                "Serve with lemon wedges and caster sugar, or your favourite filling. Once cold, you can layer the pancakes between baking parchment, then wrap in cling film and freeze for up to 2 months."</string>
+    <string name="cake">"Ingredients \n
+1x classic pancake recipe (see 'Goes well with')\n
+sunflower oil , for greasing\n
+100g caster sugar\n
+100g blanched almonds\n
+½ tsp sea salt flakes\n
+For the chocolate sauce \n
+250g dark chocolate , finely chopped\n
+50g unsalted butter\n
+175ml whole milk\n
+125ml double cream\n
+2 tbsp brandy or dark rum\n
+50g light muscovado sugar\n
+whipped cream , to serve.\n\n" +"Method\n
+STEP 1
+Prepare pancakes following a classic recipe (see 'Goes well with').
+
+STEP 2
+Lightly brush a baking sheet with sunflower oil. Tip the caster sugar into a medium-size saucepan, add 2-3 tbsp of water and set the pan over a low-medium heat to allow the sugar to slowly dissolve into the water. Bring to the boil and continue to cook until the syrup becomes amber-coloured caramel.
+
+STEP 3
+Working quickly, tip the blanched almonds and salt into the pan and continue to cook for 30 secs-1 min until the caramel turns deep amber and the almonds are toasted. Tip the praline onto the oiled baking sheet and leave until completely cold and hardened. Break the praline into chunks and whizz in the food processor until coarsely chopped.
+
+STEP 4
+To make the chocolate sauce, combine all the ingredients in a heatproof bowl set over a pan of barely simmering water. Stir occasionally until smooth and silky. Remove from the heat and cool to room temperature.
+
+STEP 5
+Heat oven to 180C/160C fan/gas 4. Lay one pancake in the bottom of a 20cm springform tin and spread over 1 tbsp of chocolate sauce. Scatter with chopped praline and top with another pancake. Continue in this manner until you have used all 12 pancakes, topping the stack with a pancake.
+
+STEP 6
+Cover the tin with foil and bake on the middle shelf of the oven for around 20 mins or until hot through. Gently warm the remaining chocolate sauce, cut the cake into wedges and serve scattered with the remaining praline chocolate sauce, and a bowl of lightly whipped cream alongside."</string>
+    <string name="fcake">"Ingredients\n
+150ml sunflower oil, plus extra for the tin\n
+175g self-raising flour\n
+2 tbsp cocoa powder\n
+1 tsp bicarbonate of soda\n
+150g caster sugar\n
+2 tbsp golden syrup\n
+2 large eggs, lightly beaten\n
+150ml semi-skimmed milk\n
+For the icing\n
+100g unsalted butter\n
+225g icing sugar\n
+40g cocoa powder\n
+2½ tbsp milk (a little more if needed)\n\n Method\n
+STEP 1
+Heat the oven to 180C/160C fan/gas 4. Oil and line the base of two 18cm sandwich tins. Sieve the flour, cocoa powder and bicarbonate of soda into a bowl. Add the caster sugar and mix well.
+
+STEP 2
+Make a well in the centre and add the golden syrup, eggs, sunflower oil and milk. Beat well with an electric whisk until smooth.
+
+STEP 3
+Pour the mixture into the two tins and bake for 25-30 mins until risen and firm to the touch. Remove from oven, leave to cool for 10 mins before turning out onto a cooling rack.
+
+STEP 4
+To make the icing, beat the unsalted butter in a bowl until soft. Gradually sieve and beat in the icing sugar and cocoa powder, then add enough of the milk to make the icing fluffy and spreadable.
+
+STEP 5
+Sandwich the two cakes together with the butter icing and cover the sides and the top of the cake with more icing."</string>
+    <string name="porridge">"Ingredients\n
+1 cup jumbo oats\n
+4 cups milk (or half milk, half water for a less creamy version), plus a dribble more milk to serve\n
+¼ cup dried fruits (optional)\n\n Method\n
+STEP 1
+Heat the slow cooker if necessary. Find a sturdy ceramic bowl that will fit in the cooker. Put the oats in the bowl along with a pinch of salt, then pour over the milk, or a mixture of milk and water. Add the dried fruit, if using. Place the bowl in the slow cooker and put on its lowest setting and cook overnight for 7-8 hours. If anyone’s up in the night, give the porridge a quick stir to scrape up the crustier bits from around the edges and bottom, but don’t worry if not.
+
+STEP 2
+In the morning, give the porridge a really good stir – it may have developed a crust on top, but just stir this in to break it up. Add a drop more milk to loosen if necessary, then ladle into bowls and add your favourite toppings."</string>
+
+
+    <string name="Raspberry">"Ingredients\n
+250g self-raising flour\n
+50g ground almonds\n
+200g butter , diced\n
+280g golden granulated sugar\n
+50g desiccated coconut\n
+2 medium eggs\n
+350-450g/12oz-1lb fresh or frozen raspberries\n\nMethod\n
+STEP 1
+Heat the oven to 180C/fan160C/gas 4. Butter an oblong cake tin (about 31 x 17 x 3cm). Tip the flour, ground almonds, butter and sugar into a food processor and whizz just until the butter is evenly distributed – or rub together by hand. Remove 85g/3oz of the mix, stir in the coconut and put to one side. Add the eggs to the remaining mixture in the food processor and whizz quickly – or mix with a wooden spoon. It doesn’t need to be very smooth.
+
+STEP 2
+Spread this mixture over the base of the tin, then scatter half the raspberries over the top. Sprinkle with the coconut mixture and bake for 45 mins. Dot the remaining fruit over the surface and cook for a further 15 mins, until firm to the touch. Cool in the tin and cut into slices, squares, whichever shape you want. They will keep for up to 2 days in the fridge."</string>
+    <string name="lemon">"Ingredients\n
+100g caster sugar\n
+100g softened butter\n
+100g self-raising flour\n
+2 eggs\n
+zest of 1 lemon\n
+1 tsp vanilla essence\n
+4 tbsp lemon curd\n
+crème fraîche or ice cream, to serve\n\nMethod\n
+STEP 1
+Mix the sugar, butter, flour, eggs, lemon zest and vanilla together until creamy, then spoon into a medium microwave-proof baking dish. Microwave on High for 3 mins, turning halfway through cooking, until risen and set all the way through. Leave to stand for 1 min.
+
+STEP 2
+Meanwhile, heat the lemon curd for 30 secs in the microwave and stir until smooth. Pour all over the top of the pudding and serve with a dollop of crème fraîche or scoops of ice cream."</string>
+    <string name="puddings">"Ingredients\n
+1kg mixed berries , such as raspberries, blueberries, redcurrants, blackberries and strawberries, plus a few extra to serve\n
+50g caster sugar\n
+4 tbsp crème de cassis (or water)\n
+large (approx 800g) loaf white bread , sliced\n\nMethod\n
+STEP 1
+Strip berries from their stalks and hull strawberries. Discard any that are squashy or overripe. Toss berries gently in a nonstick saucepan with sugar and Cassis or water. Heat the pan until it starts to sizzle. Cook over a medium heat for 2-3 mins or until the fruits start to bleed and soften.
+
+STEP 2
+Stir gently, then cool to room temperature. Strain fruit through a plastic sieve into a non-metallic bowl for about 10 mins or until the juices stop dripping.
+
+STEP 3
+Have 8 cappuccino or tea cups (about 200ml) ready. Using 2 cutters (approx 10cm and 6cm, but check against the tops and bottoms of your cups), cut out 8 bread rounds of each size. Cut the crusts off 8 more slices and slice in half. These strips should be approximately the same depth as the cups.
+
+STEP 4
+Dip the small rounds of bread into the reserved juices and press into the cups. Dip the straight slices in the juice and press around the sides. Spoon in the fruits, pressing down with the back of a spoon to firm. Dip the last of the bread rounds into the juice; press down on top. Chill overnight.
+
+STEP 5
+When ready to serve, loosen bread tops with the tip of a table knife. Hold a dessert plate over the pudding, then turn upside down, shaking well. The puddings should slip out easily; if not, loosen the sides gently with the knife. Pour any remaining juice over the tops of puddings. Decorate with the remaining fruit; serve with pouring cream."</string>
 </resources>
